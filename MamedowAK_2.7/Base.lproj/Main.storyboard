@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="2773.913043478261" y="474.77678571428567"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Persons Tab Bar Controller-->
         <scene sceneID="DS0-Vs-DLT">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="09U-6D-Coa" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="09U-6D-Coa" customClass="PersonsTabBarController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fNK-55-9ZR">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>

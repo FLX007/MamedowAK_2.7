@@ -17,6 +17,7 @@
 		A1910922273B2C4600334242 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910921273B2C4600334242 /* DetailViewController.swift */; };
 		A1910924273B33C500334242 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910923273B33C500334242 /* DataManager.swift */; };
 		A1910926273B33D800334242 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910925273B33D800334242 /* Person.swift */; };
+		A1910928273B3AF200334242 /* PersonsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910927273B3AF200334242 /* PersonsTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A1910921273B2C4600334242 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A1910923273B33C500334242 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A1910925273B33D800334242 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A1910927273B3AF200334242 /* PersonsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A191091F273B295E00334242 /* ContactsTableViewController.swift */,
 				A191091D273B282E00334242 /* DetailContactsTableViewController.swift */,
 				A1910921273B2C4600334242 /* DetailViewController.swift */,
+				A1910927273B3AF200334242 /* PersonsTabBarController.swift */,
 				A191090F273B00BA00334242 /* Main.storyboard */,
 				A1910923273B33C500334242 /* DataManager.swift */,
 				A1910925273B33D800334242 /* Person.swift */,
@@ -152,6 +155,7 @@
 			files = (
 				A191090A273B00BA00334242 /* AppDelegate.swift in Sources */,
 				A1910924273B33C500334242 /* DataManager.swift in Sources */,
+				A1910928273B3AF200334242 /* PersonsTabBarController.swift in Sources */,
 				A191090C273B00BA00334242 /* SceneDelegate.swift in Sources */,
 				A1910922273B2C4600334242 /* DetailViewController.swift in Sources */,
 				A1910926273B33D800334242 /* Person.swift in Sources */,
