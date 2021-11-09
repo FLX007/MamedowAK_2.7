@@ -24,6 +24,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="s2S-fN-L5y" kind="show" id="tPk-ww-LWR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -32,9 +35,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Persons List" id="GHm-9u-VSd"/>
-                    <connections>
-                        <segue destination="s2S-fN-L5y" kind="show" id="Fqj-iz-oxZ"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0g1-qN-alX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,17 +77,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0iH-9S-KHw">
-                                <rect key="frame" x="38" y="127" width="48" height="68"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0iH-9S-KHw">
+                                <rect key="frame" x="20" y="140" width="48" height="56"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RoU-vF-OfA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RoU-vF-OfA" userLabel="Phone Label">
                                         <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiI-FA-Nfq">
-                                        <rect key="frame" x="0.0" y="44" width="48" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiI-FA-Nfq" userLabel="Email Label">
+                                        <rect key="frame" x="0.0" y="32" width="48" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -97,6 +97,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ndw-fg-JNh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0iH-9S-KHw" firstAttribute="leading" secondItem="VcX-Y6-uyu" secondAttribute="leadingMargin" id="0l3-Jt-q8a"/>
+                            <constraint firstItem="0iH-9S-KHw" firstAttribute="top" secondItem="Ndw-fg-JNh" secondAttribute="top" id="LjH-V1-e4D"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Person" id="0i7-6k-aFq"/>
                 </viewController>
