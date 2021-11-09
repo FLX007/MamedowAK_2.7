@@ -15,6 +15,8 @@
 		A191091E273B282E00334242 /* DetailContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191091D273B282E00334242 /* DetailContactsTableViewController.swift */; };
 		A1910920273B295E00334242 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191091F273B295E00334242 /* ContactsTableViewController.swift */; };
 		A1910922273B2C4600334242 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910921273B2C4600334242 /* DetailViewController.swift */; };
+		A1910924273B33C500334242 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910923273B33C500334242 /* DataManager.swift */; };
+		A1910926273B33D800334242 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910925273B33D800334242 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A191091D273B282E00334242 /* DetailContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactsTableViewController.swift; sourceTree = "<group>"; };
 		A191091F273B295E00334242 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		A1910921273B2C4600334242 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1910923273B33C500334242 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A1910925273B33D800334242 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				A191091D273B282E00334242 /* DetailContactsTableViewController.swift */,
 				A1910921273B2C4600334242 /* DetailViewController.swift */,
 				A191090F273B00BA00334242 /* Main.storyboard */,
+				A1910923273B33C500334242 /* DataManager.swift */,
+				A1910925273B33D800334242 /* Person.swift */,
 				A1910912273B00BB00334242 /* Assets.xcassets */,
 				A1910914273B00BB00334242 /* LaunchScreen.storyboard */,
 				A1910917273B00BB00334242 /* Info.plist */,
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A191090A273B00BA00334242 /* AppDelegate.swift in Sources */,
+				A1910924273B33C500334242 /* DataManager.swift in Sources */,
 				A191090C273B00BA00334242 /* SceneDelegate.swift in Sources */,
 				A1910922273B2C4600334242 /* DetailViewController.swift in Sources */,
+				A1910926273B33D800334242 /* Person.swift in Sources */,
 				A1910920273B295E00334242 /* ContactsTableViewController.swift in Sources */,
 				A191091E273B282E00334242 /* DetailContactsTableViewController.swift in Sources */,
 			);
