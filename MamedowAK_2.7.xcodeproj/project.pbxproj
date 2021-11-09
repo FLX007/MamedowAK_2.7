@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A191090A273B00BA00334242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1910909273B00BA00334242 /* AppDelegate.swift */; };
 		A191090C273B00BA00334242 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191090B273B00BA00334242 /* SceneDelegate.swift */; };
-		A191090E273B00BA00334242 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191090D273B00BA00334242 /* ContactsTableViewController.swift */; };
 		A1910911273B00BA00334242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A191090F273B00BA00334242 /* Main.storyboard */; };
 		A1910913273B00BB00334242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1910912273B00BB00334242 /* Assets.xcassets */; };
 		A1910916273B00BB00334242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1910914273B00BB00334242 /* LaunchScreen.storyboard */; };
+		A191091E273B282E00334242 /* DetailContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191091D273B282E00334242 /* DetailContactsTableViewController.swift */; };
+		A1910920273B295E00334242 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191091F273B295E00334242 /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1910906273B00BA00334242 /* MamedowAK_2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamedowAK_2.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1910909273B00BA00334242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A191090B273B00BA00334242 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A191090D273B00BA00334242 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		A1910910273B00BA00334242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1910912273B00BB00334242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1910915273B00BB00334242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1910917273B00BB00334242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A191091D273B282E00334242 /* DetailContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactsTableViewController.swift; sourceTree = "<group>"; };
+		A191091F273B295E00334242 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				A1910909273B00BA00334242 /* AppDelegate.swift */,
 				A191090B273B00BA00334242 /* SceneDelegate.swift */,
-				A191090D273B00BA00334242 /* ContactsTableViewController.swift */,
+				A191091F273B295E00334242 /* ContactsTableViewController.swift */,
+				A191091D273B282E00334242 /* DetailContactsTableViewController.swift */,
 				A191090F273B00BA00334242 /* Main.storyboard */,
 				A1910912273B00BB00334242 /* Assets.xcassets */,
 				A1910914273B00BB00334242 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A191090E273B00BA00334242 /* ContactsTableViewController.swift in Sources */,
 				A191090A273B00BA00334242 /* AppDelegate.swift in Sources */,
 				A191090C273B00BA00334242 /* SceneDelegate.swift in Sources */,
+				A1910920273B295E00334242 /* ContactsTableViewController.swift in Sources */,
+				A191091E273B282E00334242 /* DetailContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

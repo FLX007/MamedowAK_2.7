@@ -11,7 +11,7 @@
         <!--Contacts Table View Controller-->
         <scene sceneID="qoC-9e-gJf">
             <objects>
-                <tableViewController id="XXO-tw-pgb" customClass="ContactsTableViewController" sceneMemberID="viewController">
+                <tableViewController id="XXO-tw-pgb" customClass="ContactsTableViewController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="TE2-7K-piC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="3560.8695652173915" y="-210.26785714285714"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Detail Contacts Table View Controller-->
         <scene sceneID="4dY-3V-dab">
             <objects>
-                <tableViewController id="Swe-Ng-bbT" sceneMemberID="viewController">
+                <tableViewController id="Swe-Ng-bbT" customClass="DetailContactsTableViewController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Lvq-ke-gqj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,6 @@
         <!--View Controller-->
         <scene sceneID="XMb-CS-PgB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fq7-Ac-iiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="s2S-fN-L5y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VcX-Y6-uyu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -97,8 +96,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fq7-Ac-iiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4715.9420289855079" y="-228.34821428571428"/>
+            <point key="canvasLocation" x="4367" y="-210"/>
         </scene>
         <!--Item-->
         <scene sceneID="idT-w0-2wH">
@@ -144,6 +144,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="09U-6D-Coa" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fNK-55-9ZR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

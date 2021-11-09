@@ -1,5 +1,5 @@
 //
-//  ContactsTableViewController.swift
+//  DetailContactsTableViewController.swift
 //  MamedowAK_2.7
 //
 //  Created by FR on 10.11.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactsTableViewController: UITableViewController {
+class DetailContactsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class ContactsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "personCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
 
         // Configure the cell...
 
