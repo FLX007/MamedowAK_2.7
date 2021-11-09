@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Contacts Table View Controller-->
+        <!--Persons List-->
         <scene sceneID="qoC-9e-gJf">
             <objects>
                 <tableViewController id="XXO-tw-pgb" customClass="ContactsTableViewController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,13 +31,16 @@
                             <outlet property="delegate" destination="XXO-tw-pgb" id="h47-Ch-KxU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="GHm-9u-VSd"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="GHm-9u-VSd"/>
+                    <connections>
+                        <segue destination="s2S-fN-L5y" kind="show" id="Fqj-iz-oxZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0g1-qN-alX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3560.8695652173915" y="-210.26785714285714"/>
         </scene>
-        <!--Detail Contacts Table View Controller-->
+        <!--Persons List-->
         <scene sceneID="4dY-3V-dab">
             <objects>
                 <tableViewController id="Swe-Ng-bbT" customClass="DetailContactsTableViewController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,16 +63,16 @@
                             <outlet property="delegate" destination="Swe-Ng-bbT" id="DVg-ie-Y0P"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gOx-wU-qG0"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="gOx-wU-qG0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DbH-tA-XtK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3560.8695652173915" y="474.77678571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Person-->
         <scene sceneID="XMb-CS-PgB">
             <objects>
-                <viewController id="s2S-fN-L5y" sceneMemberID="viewController">
+                <viewController id="s2S-fN-L5y" customClass="DetailViewController" customModule="MamedowAK_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VcX-Y6-uyu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,16 +98,17 @@
                         <viewLayoutGuide key="safeArea" id="Ndw-fg-JNh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Person" id="0i7-6k-aFq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fq7-Ac-iiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4367" y="-210"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="idT-w0-2wH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pcp-XG-Nsa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Hef-g5-5Rr"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="Hef-g5-5Rr"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="8Xe-0m-Omv">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -119,11 +123,11 @@
             </objects>
             <point key="canvasLocation" x="2773.913043478261" y="-210.26785714285714"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="5ZD-85-QLK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Utg-vV-smC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ait-5C-ber"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="contacts" id="ait-5C-ber"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="RK3-wU-sxC">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
