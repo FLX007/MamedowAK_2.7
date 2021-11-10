@@ -30,5 +30,4 @@ class PersonsTabBarController: UITabBarController {
         let contactsVC = navigationVC.topViewController as! ContactsTableViewController
         contactsVC.persons = persons
     }
-
 }
