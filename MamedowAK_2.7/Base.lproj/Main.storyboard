@@ -103,6 +103,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Person" id="0i7-6k-aFq"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="iiI-FA-Nfq" id="RIc-FO-fsN"/>
+                        <outlet property="phoneLabel" destination="RoU-vF-OfA" id="4ra-1H-vOK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fq7-Ac-iiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

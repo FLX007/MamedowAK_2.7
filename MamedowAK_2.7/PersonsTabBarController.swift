@@ -19,7 +19,7 @@ class PersonsTabBarController: UITabBarController {
         contactsVC.persons = persons
         
         guard let secondNavigationVC = viewControllers?.last as? UINavigationController else { return }
-        let detailsContactsVC = secondNavigationVC.topViewController as! ContactsTableViewController
+        let detailsContactsVC = secondNavigationVC.topViewController as! DetailContactsTableViewController
         detailsContactsVC.persons = persons
     }
     
